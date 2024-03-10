@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.3;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 3px;
+    font-size: 1rem;
+    margin: 5px 0 11px 0;
+}
+
+h4 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    background-color: #e7e0d5;
+    border-radius: 2%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.left {
+    width: 40%;
+    background-color: #251d1a;
+    padding: 1.8rem 1.8rem 0 1.8rem;
+    box-sizing: border-box;
+    border: solid 10px #ccb4a7;
+    color: #ccb4a7;
+    font-size: 0.7rem;
+    margin: 2rem 0.8rem 2rem 2rem;
+}
+
+
+.left_image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.left_photo {
+    height: 12rem;
+    border-radius: 50%;
+    border: 5px solid #e7e0d5;
+}
+
+.left_contact {
+    margin-bottom: 0.5rem;
+}
+
+.left_contact div {
+    display: flex;
+}
+
+.left_contact a {
+    text-decoration: none;
+    color: #ccb4a7;
+}
+
+.left_contact img {
+    height: 1rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.left_hard_skills h2 {
+    margin-bottom: 0.2rem;
+}
+
+.left_hard_skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.left_hard_skills_list p {
+    margin: 0.3rem 0.6rem 0.3rem 0.6rem;
+}
+
+.left_soft_skills {
+    margin-bottom: 0.8rem;
+}
+
+.left_soft_skills h2 {
+    margin: 0.2rem 0.5rem;
+}
+
+.left_soft_skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.left_soft_skills_list p {
+    margin: 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+
+.left_centre_interets_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left_centre_interets_list div {
+    margin-bottom: 0.4rem;
+}
+
+/* --------------------------SECTION DE DROITE------------------------ */
+
+.right {
+    width: 60%;
+    color: #251d1a;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.8rem 0 0.8rem;
+}
+
+.right .experience div {
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.right .description {
+    font-weight: normal;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+}
+
+.right ul {
+    padding-left: 1rem;
+}
+
+
